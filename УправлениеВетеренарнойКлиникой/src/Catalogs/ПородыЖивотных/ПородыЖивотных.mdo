@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eed3af7c-c0b6-474f-8c11-444776e143b5">
+  <producedTypes>
+    <objectType typeId="7e068319-d4be-49a8-a32e-0f5deea046f2" valueTypeId="f0623da9-3541-487f-81b3-5edbc3095211"/>
+    <refType typeId="f4bdadb2-42cf-4e1c-8c48-aec97c5536e7" valueTypeId="80fe4b80-89d4-4cf5-825b-56c435999628"/>
+    <selectionType typeId="ced6bf5b-0058-4ea9-a5f5-365ea17ebbff" valueTypeId="d6050d8b-1d83-4643-bf59-0e80bfa1ad02"/>
+    <listType typeId="6cd7f7c7-67cb-489e-8b8f-643679b53155" valueTypeId="ab5144fa-56d4-4b4a-8a9e-18e38697e47e"/>
+    <managerType typeId="0c6a2405-45df-4f28-9a16-d3476acd9ccc" valueTypeId="94383693-335a-4560-bcf1-10d13e27d374"/>
+  </producedTypes>
+  <name>ПородыЖивотных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Породы животных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПородыЖивотных.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПородыЖивотных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Порода животного</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0b566bbb-f0d6-4986-b335-22705e15e464">
+    <name>ВидЖивотного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид животного</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЖивотных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

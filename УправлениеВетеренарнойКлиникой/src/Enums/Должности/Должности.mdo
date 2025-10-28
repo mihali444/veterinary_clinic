@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a9cc369-5b32-4d8c-8662-96c68ffbd99c">
+  <producedTypes>
+    <refType typeId="e695ab95-8d1c-4eb0-9be5-72034fbb0a29" valueTypeId="422dbea1-18b6-42c6-aa6e-310b68714ddb"/>
+    <listType typeId="8c2ba067-2c25-4cf2-abb1-df6a6b1551b0" valueTypeId="5c57a048-dfda-42d5-934d-5c2d7ab8ef07"/>
+    <managerType typeId="bc9ff8ca-860c-4b68-8f87-46f8c2fcfe0b" valueTypeId="14da67ca-65ae-4e20-b43d-d6f8aeb1d6ea"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0061a0ec-672d-4c73-9a4f-f2639c69ef60">
+    <name>Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Врач</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f58c711-9f1e-41fc-ba40-e6babbc11b7f">
+    <name>ЗаведущийСкладом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заведущий складом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa15e959-bd51-4944-86c4-3447d429426b">
+    <name>Курьер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курьер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9355cd2b-1290-4b5f-9bb5-ad4f98117bba">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5ecb09a-a5f9-4746-a768-504765c5e6fb">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

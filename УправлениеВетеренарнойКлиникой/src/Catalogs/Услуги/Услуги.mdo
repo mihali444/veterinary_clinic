@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04ffc401-1b8a-4918-8b6d-4c6d8027fdae">
+  <producedTypes>
+    <objectType typeId="15a30a53-68c3-4199-833c-2ebe6dbfd0d7" valueTypeId="427aed56-b48a-4fef-8be5-fc93cd825f06"/>
+    <refType typeId="6e967e11-a635-40f5-8fda-ff6201e5b08f" valueTypeId="d7e5af1e-4c00-4ee2-a7bb-af97919b58df"/>
+    <selectionType typeId="4a2cbb90-8f54-43ef-afe6-e8b3f68f5c5f" valueTypeId="e5b86c69-7173-4d9f-a677-e0ce44bbc059"/>
+    <listType typeId="a724edb8-d90d-4d48-815c-e3bc97e05872" valueTypeId="36c779f7-5ac1-461f-94bb-418f18f196f3"/>
+    <managerType typeId="cc051e93-bd29-41d5-abca-14da58fdbf9e" valueTypeId="8dfff918-0240-4137-9efa-cc8524a40dd3"/>
+  </producedTypes>
+  <name>Услуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Услуги.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Услуги.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Услуга</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="fc67ef5f-11d4-440a-a56f-3728cf62b3ca">
+    <name>Продолжительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность</value>
+    </synonym>
+    <comment>В минутах</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
