@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="904fa99f-5e8a-4388-9777-4ae0679fbae6">
+  <producedTypes>
+    <selectionType typeId="6094689d-2775-4503-9335-5ebb0d1f3288" valueTypeId="62f07c26-6d2b-4737-95f2-e21d36e34a0b"/>
+    <listType typeId="8279af99-9900-4011-9732-3d9ed7cd322f" valueTypeId="cad1e369-fe51-40b6-930d-ba3af1e3943b"/>
+    <managerType typeId="25a4da43-62b1-4f65-88a7-90c5ecfd54d4" valueTypeId="50758edc-729a-40a6-970d-b64ed3b05e68"/>
+    <recordSetType typeId="b35fde9a-a154-4950-8566-2ec510ccfadf" valueTypeId="79e7ed14-c164-4538-94a0-feb61a596f87"/>
+    <recordKeyType typeId="a862fd6a-67af-4df8-ba04-8f660806e9ef" valueTypeId="155432d0-e5ef-4a0a-aec9-8f02c79af91a"/>
+    <recordType typeId="7af2002f-ade0-4896-9ff6-9dd266b57375" valueTypeId="55edd885-d976-475f-a7da-922163ea8a0b"/>
+    <recordManagerType typeId="3d901fd9-1caf-4b51-9c77-c367bfed6b88" valueTypeId="07d11dd7-5c2e-4f0c-8615-3e441843e28f"/>
+  </producedTypes>
+  <name>РасписаниеВрачей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание врачей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Расписание врача</value>
+  </recordPresentation>
+  <resources uuid="4eecbfbf-7fc8-4cc1-bcd9-3e26f4a3847e">
+    <name>Занято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занято</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a4fdd125-acca-4c16-af23-4e1e90779e84">
+    <name>Запись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаписьНаПрием</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f58babeb-ff11-4242-99b2-cabdacb31a10">
+    <name>Питомец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Питомец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Питомцы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6c7e6409-a882-44fd-a59c-82065e2587f8">
+    <name>Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Врач</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1a3f8d5f-7600-4980-92d9-494fe27ad1ab">
+    <name>ДатаВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a511ade6-b3bf-4448-b069-5fbf3fc84099">
+    <name>ДатаВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

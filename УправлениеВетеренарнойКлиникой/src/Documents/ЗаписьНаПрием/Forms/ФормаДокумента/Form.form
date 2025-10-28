@@ -194,6 +194,20 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <choiceParameterLinks>
+        <name>Отбор.Хозяин</name>
+        <datapath xsi:type="form:DataPath">
+          <segments>Объект.Клиент</segments>
+        </datapath>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.Хозяин</name>
+        <value xsi:type="form:FormChoiceListDesTimeValue">
+          <value xsi:type="core:BooleanValue">
+            <value>true</value>
+          </value>
+        </value>
+      </choiceParameters>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -207,6 +221,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Врач</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ВрачПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ВрачРасширеннаяПодсказка</name>
       <id>15</id>
@@ -304,6 +322,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ДатаВремяНачала</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ДатаВремяНачалаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ДатаВремяНачалаРасширеннаяПодсказка</name>
         <id>18</id>
@@ -374,6 +396,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Продолжительность</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПродолжительностьПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ПродолжительностьРасширеннаяПодсказка</name>
       <id>24</id>

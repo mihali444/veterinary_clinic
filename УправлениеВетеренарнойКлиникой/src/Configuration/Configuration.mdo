@@ -52,5 +52,6 @@
   <enums>Enum.Должности</enums>
   <enums>Enum.Пол</enums>
   <enums>Enum.СтатусыЗаписи</enums>
+  <informationRegisters>InformationRegister.РасписаниеВрачей</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНаУслуги</informationRegisters>
 </mdclass:Configuration>
