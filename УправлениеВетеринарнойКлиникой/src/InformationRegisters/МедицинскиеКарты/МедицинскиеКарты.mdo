@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6523da2-adb3-4ef4-bd2e-fb964c893231">
+  <producedTypes>
+    <selectionType typeId="c88d0601-dbab-44c5-bf98-1120af4feb2d" valueTypeId="3863703f-2d3c-49f9-9bb3-a4e64d84344b"/>
+    <listType typeId="20fc26ca-ac28-4083-a0dd-18f3a2d42569" valueTypeId="a5b35bcc-46f6-433b-9df3-b5b8d1c16321"/>
+    <managerType typeId="9d117c8e-f60a-442e-a26b-d23b9a2e0d32" valueTypeId="06968e78-55f5-46e2-a943-ce0124c04f73"/>
+    <recordSetType typeId="5eab2b04-6cd9-43b9-85c6-8abe7f5bf317" valueTypeId="05ddf8a7-725a-44da-a2b6-e2bbec775e6e"/>
+    <recordKeyType typeId="f80e4026-07c1-411a-bb45-0a2935d72941" valueTypeId="ab1dcfdc-bf01-465f-b723-34df9fa636de"/>
+    <recordType typeId="51bfa013-66cf-4659-96e5-a6e676c637f7" valueTypeId="fb7ad002-24d8-40cf-99da-66a3d1150a56"/>
+    <recordManagerType typeId="a2029213-96ab-423d-a356-13072d990f72" valueTypeId="9e34c3f8-e222-4e3e-89e6-575f89abe8a1"/>
+  </producedTypes>
+  <name>МедицинскиеКарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицинские карты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.МедицинскиеКарты.Form.ФормаСписка</defaultListForm>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Медицинская карта</value>
+  </recordPresentation>
+  <resources uuid="a6ab10dd-c06a-4027-a6ea-e950d488f52f">
+    <name>Диагноз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диагноз</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b0118813-ec64-4997-9390-10c7e5dee7db">
+    <name>Жалобы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жалобы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="baa718cc-9d18-4a8c-a009-a90b1f0f4b29">
+    <name>Назначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fd021084-0fd4-40d8-ac8f-8dd5f3052806">
+    <name>Рекомендации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a555cd69-2e0c-4886-82b2-6741a3a7e6db">
+    <name>Осмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осмотр</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Осмотр</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1d22cd2a-3391-47b7-befe-55abc9e497f8">
+    <name>Питомец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Питомец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Питомцы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f84e0ac9-27e8-4fec-9bbc-eccb2bf329bd">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="67ff0ec0-c13f-422b-b18a-71e03201ab9c">
+    <name>Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Врач</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b900bdc5-bde4-47ab-9000-fc06a2b0ee63">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

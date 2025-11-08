@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29ee41c9-20ff-4862-8552-b967781a2d0d">
+  <name>МедицинскийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицинский учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Осмотр</content>
+  <content>InformationRegister.МедицинскиеКарты</content>
+</mdclass:Subsystem>

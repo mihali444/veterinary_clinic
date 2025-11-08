@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d06c5600-2452-47d4-bba0-05a86dcd7514">
+  <name>ЗаписьНаПрием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись на прием</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаписьНаПрием</content>
+  <content>InformationRegister.РасписаниеВрачей</content>
+</mdclass:Subsystem>

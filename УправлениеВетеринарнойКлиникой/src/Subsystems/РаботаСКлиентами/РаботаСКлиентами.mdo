@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c82c46a7-d7f7-48ec-a6b8-d45abeac1538">
+  <name>РаботаСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с клиентами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Питомцы</content>
+  <content>Catalog.ПородыЖивотных</content>
+  <content>Catalog.ВидыЖивотных</content>
+</mdclass:Subsystem>

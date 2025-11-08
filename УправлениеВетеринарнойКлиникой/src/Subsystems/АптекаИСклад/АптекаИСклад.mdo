@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="689724b1-83d0-4204-a85e-d57fa70e7851">
+  <name>АптекаИСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аптека и склад</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Товары</content>
+  <content>Catalog.Склады</content>
+  <content>Document.СписаниеТоваров</content>
+  <content>Document.УстановкаЦенНаТовары</content>
+  <content>InformationRegister.ЦеныНаТовары</content>
+</mdclass:Subsystem>
