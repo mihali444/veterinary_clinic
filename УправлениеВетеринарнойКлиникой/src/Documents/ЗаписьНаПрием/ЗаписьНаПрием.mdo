@@ -28,6 +28,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗаписьНаПрием.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.РасписаниеВрачей</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1aba39ad-538f-4803-bba9-c0c34fbf3c46">
@@ -90,11 +91,11 @@
     </type>
     <format>
       <key>ru</key>
-      <value>ДФ='dd/MM/гггг чч:мм'</value>
+      <value>ДФ='dd/MM/гггг ЧЧ:мм'</value>
     </format>
     <editFormat>
       <key>ru</key>
-      <value>ДФ='dd/MM/гггг чч:мм'</value>
+      <value>ДФ='dd/MM/гггг ЧЧ:мм'</value>
     </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
