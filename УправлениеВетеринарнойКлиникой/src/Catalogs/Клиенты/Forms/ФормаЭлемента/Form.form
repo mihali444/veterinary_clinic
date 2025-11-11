@@ -93,6 +93,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.ДатаРождения</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ДатаРожденияПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ДатаРожденияРасширеннаяПодсказка</name>
       <id>15</id>
@@ -304,7 +308,7 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Catalog.Питомцы.StandardCommand.Create</commandName>
+      <commandName>Form.Command.ДобавитьПитомца</commandName>
       <representation>PictureAndText</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -710,6 +714,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОбновитьПитомцев</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ДобавитьПитомца</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить питомца</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьПитомца</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

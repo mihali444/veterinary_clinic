@@ -20,10 +20,10 @@
     </synonym>
   </enumValues>
   <enumValues uuid="32f328a0-36f2-4a1c-bc24-c5449dd78808">
-    <name>Подтвержден</name>
+    <name>ВРаботе</name>
     <synonym>
       <key>ru</key>
-      <value>Подтвержден</value>
+      <value>В работе</value>
     </synonym>
   </enumValues>
   <enumValues uuid="2f45a958-42e1-42c8-890e-0420d8770121">
@@ -38,13 +38,6 @@
     <synonym>
       <key>ru</key>
       <value>Отменен</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="d365dc5c-427d-4c07-b807-61e8fc800059">
-    <name>НеЯвился</name>
-    <synonym>
-      <key>ru</key>
-      <value>Не явился</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

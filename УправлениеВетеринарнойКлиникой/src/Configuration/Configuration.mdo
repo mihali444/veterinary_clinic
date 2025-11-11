@@ -69,6 +69,7 @@
   <enums>Enum.СтатусыЗаписи</enums>
   <enums>Enum.СтатусыОплаты</enums>
   <enums>Enum.СтатусыОсмотра</enums>
+  <enums>Enum.СпособПрименения</enums>
   <informationRegisters>InformationRegister.МедицинскиеКарты</informationRegisters>
   <informationRegisters>InformationRegister.РасписаниеВрачей</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНаТовары</informationRegisters>

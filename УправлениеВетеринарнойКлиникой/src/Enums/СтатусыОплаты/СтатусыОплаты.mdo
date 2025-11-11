@@ -26,11 +26,4 @@
       <value>Оплачено</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="3641bd67-74ac-4bf2-b11f-143080942fd2">
-    <name>ЧастичноОплачено</name>
-    <synonym>
-      <key>ru</key>
-      <value>Частично оплачено</value>
-    </synonym>
-  </enumValues>
 </mdclass:Enum>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5df9f1b-b2bf-483c-abd4-8707f5784988">
+  <producedTypes>
+    <refType typeId="3f45720b-1f57-4418-a646-0d7855d3544f" valueTypeId="97dcd08f-0467-4744-a965-22e4c9d77c18"/>
+    <listType typeId="8e1bf978-5308-40d5-813d-20e067b68577" valueTypeId="d42e9ca0-9e31-4105-a1dd-a3b2442fccf9"/>
+    <managerType typeId="3fb435be-214c-43de-a3f9-9dcc8e086fe3" valueTypeId="9a42166e-812f-4b89-98ad-937564f62a3f"/>
+  </producedTypes>
+  <name>СпособПрименения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ применения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c12db299-f409-4b44-bc22-bc524dabc4d6">
+    <name>Внутрь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутрь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="907f47b8-2f05-483a-bed3-9af23d52261a">
+    <name>Наружу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наружу</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

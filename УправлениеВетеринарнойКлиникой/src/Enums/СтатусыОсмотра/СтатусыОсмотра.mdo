@@ -26,11 +26,4 @@
       <value>Завершен</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="4ab6dc06-2bf6-417e-973b-9a8c3fd98c35">
-    <name>Отменен</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отменен</value>
-    </synonym>
-  </enumValues>
 </mdclass:Enum>

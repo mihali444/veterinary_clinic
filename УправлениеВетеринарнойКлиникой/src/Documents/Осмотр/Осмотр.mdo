@@ -184,7 +184,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>3</precision>
+        <precision>4</precision>
         <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
@@ -303,14 +303,10 @@
         <value>Способ применения</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>150</length>
-        </stringQualifiers>
+        <types>EnumRef.СпособПрименения</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
