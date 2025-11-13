@@ -27,6 +27,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.Стиль1</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -49,7 +50,9 @@
   <subsystems>Subsystem.РаботаСКлиентами</subsystems>
   <subsystems>Subsystem.УслугиИЦены</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
+  <styles>Style.Стиль1</styles>
   <commonModules>CommonModule.РаботаСЦенамиВызовСервера</commonModules>
+  <commonForms>CommonForm.ДашбордАдминистратора</commonForms>
   <catalogs>Catalog.ВидыЖивотных</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Питомцы</catalogs>

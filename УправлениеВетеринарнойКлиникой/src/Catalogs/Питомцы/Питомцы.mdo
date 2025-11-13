@@ -112,6 +112,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Питомцы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Питомцы.Form.ФормаСписка</defaultListForm>
   <attributes uuid="8295bc74-141f-4196-9387-f19f13b043ad">
     <name>Хозяин</name>
     <synonym>
@@ -247,6 +248,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="17fe6d8b-7301-4cff-b89a-eb70eaff7f78">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

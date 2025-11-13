@@ -307,6 +307,20 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <choiceParameters>
+            <name>Отбор.ЭтоГруппа</name>
+            <value xsi:type="form:FormChoiceListDesTimeValue">
+              <value xsi:type="core:BooleanValue"/>
+            </value>
+          </choiceParameters>
+          <choiceParameters>
+            <name>Отбор.Родитель</name>
+            <value xsi:type="form:FormChoiceListDesTimeValue">
+              <value xsi:type="core:ReferenceValue">
+                <value>Enum.Должности.EnumValue.Администратор</value>
+              </value>
+            </value>
+          </choiceParameters>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -750,6 +764,10 @@
     </commandBar>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
+    </handlers>
     <handlers>
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>
