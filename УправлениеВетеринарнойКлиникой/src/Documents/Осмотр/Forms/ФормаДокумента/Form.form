@@ -165,20 +165,6 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <choiceParameters>
-          <name>Отбор.Должность</name>
-          <value xsi:type="form:FormChoiceListDesTimeValue">
-            <value xsi:type="core:ReferenceValue">
-              <value>Enum.Должности.EnumValue.Врач</value>
-            </value>
-          </value>
-        </choiceParameters>
-        <choiceParameters>
-          <name>Отбор.ЭтоГруппа</name>
-          <value xsi:type="form:FormChoiceListDesTimeValue">
-            <value xsi:type="core:BooleanValue"/>
-          </value>
-        </choiceParameters>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">

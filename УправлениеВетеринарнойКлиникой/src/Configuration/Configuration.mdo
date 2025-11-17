@@ -51,6 +51,11 @@
   <subsystems>Subsystem.УслугиИЦены</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
   <styles>Style.Стиль1</styles>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Врач</roles>
+  <roles>Role.Администратор</roles>
+  <roles>Role.ЗаведущийАптекой</roles>
   <commonModules>CommonModule.РаботаСЦенамиВызовСервера</commonModules>
   <commonForms>CommonForm.ДашбордАдминистратора</commonForms>
   <catalogs>Catalog.ВидыЖивотных</catalogs>
