@@ -13,4 +13,5 @@
   <content>InformationRegister.ЦеныНаТовары</content>
   <content>InformationRegister.ЦеныНаУслуги</content>
   <content>SessionParameter.ТекущийПользователь</content>
+  <content>DataProcessor.ВыгрузкаСотрудниковВАрхив</content>
 </mdclass:Subsystem>

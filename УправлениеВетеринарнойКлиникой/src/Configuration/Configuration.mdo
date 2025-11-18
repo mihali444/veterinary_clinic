@@ -78,6 +78,7 @@
   <enums>Enum.СтатусыОплаты</enums>
   <enums>Enum.СтатусыОсмотра</enums>
   <enums>Enum.СпособПрименения</enums>
+  <dataProcessors>DataProcessor.ВыгрузкаСотрудниковВАрхив</dataProcessors>
   <informationRegisters>InformationRegister.МедицинскиеКарты</informationRegisters>
   <informationRegisters>InformationRegister.РасписаниеВрачей</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНаТовары</informationRegisters>

@@ -72,6 +72,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="c9f2c224-fd1c-4141-9879-62716fde7d87">
+    <name>ФормаЗагрузкиЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки цен</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="b6c3db0b-5565-4ca0-a36f-1b14eda72f41">
     <producedTypes>
       <objectType typeId="42295722-4121-4625-915d-e46471d1ef66" valueTypeId="f1d742ff-f85b-4325-a11a-05a3b0a5c708"/>
