@@ -66,6 +66,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
   <documents>Document.ЗаписьНаПрием</documents>
   <documents>Document.Осмотр</documents>
   <documents>Document.СписаниеТоваров</documents>
