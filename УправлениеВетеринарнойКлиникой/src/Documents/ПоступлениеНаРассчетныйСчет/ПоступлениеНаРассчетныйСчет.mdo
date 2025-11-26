@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eeff10f-2cf9-4031-8374-a87ae873fe76">
+  <producedTypes>
+    <objectType typeId="716191bb-dc9e-43e9-8041-90b2d9355cc1" valueTypeId="04a5e58b-83ef-4696-8b47-45817acc743d"/>
+    <refType typeId="3e7646de-6c7c-4350-997c-27a09c9715bd" valueTypeId="3f015da3-4f25-451a-88ec-7471815c62de"/>
+    <selectionType typeId="535f472c-2eb1-478c-ac2f-cda3a21ea95e" valueTypeId="f9e200fd-a0cd-416b-948c-3a24ed9d6aa1"/>
+    <listType typeId="7fb86f05-2d5d-4e1c-96ec-286838ee9f62" valueTypeId="cb2a57ae-2993-4a14-91ba-4d02ffed2aff"/>
+    <managerType typeId="0c92cfd7-d505-4df3-b211-b585165f877e" valueTypeId="f2e5a8ff-46b9-4b27-b3b8-b405b926fbd5"/>
+  </producedTypes>
+  <name>ПоступлениеНаРассчетныйСчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление на рассчетный счет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеНаРассчетныйСчет.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.Чек</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.АвансыПокупателей</registerRecords>
+  <registerRecords>AccumulationRegister.ЗадолженностьПокупателей</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="98e0b3aa-3fa1-4ba2-8a04-76b9aaea465c">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="35227da0-3c43-45df-b234-0b42651a7de3">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47244a3e-2794-49de-a4f8-66007f1d84b8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="606442b9-52d9-4531-b8e7-ec50b6cff538">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

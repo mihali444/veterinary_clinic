@@ -8,4 +8,10 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Чек</content>
+  <content>Document.ПоступлениеНаРассчетныйСчет</content>
+  <content>Document.СписаниеСРассчетногоСчета</content>
+  <content>AccumulationRegister.АвансыПокупателей</content>
+  <content>AccumulationRegister.АвансыПоставщикам</content>
+  <content>AccumulationRegister.ЗадолженностьПокупателей</content>
+  <content>AccumulationRegister.ЗадолженностьПередПоставщиками</content>
 </mdclass:Subsystem>

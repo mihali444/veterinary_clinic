@@ -35,6 +35,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Товары.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="ec6acb03-8993-419a-aae6-970695362bcf">
     <name>ЕдиницаИзмерения</name>
     <synonym>
@@ -73,4 +74,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e4badacd-d4a7-4f6a-b319-5edf9bbb1e13">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a56602d2-32e3-41d6-8d24-ca8192d99aee">
+    <name>ФормаПодбораСКорзиной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора с корзиной</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

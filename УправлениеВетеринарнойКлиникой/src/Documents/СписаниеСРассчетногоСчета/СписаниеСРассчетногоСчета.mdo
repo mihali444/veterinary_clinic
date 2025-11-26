@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70ea9a0a-29da-4c0a-97a8-0f502be7cb7c">
+  <producedTypes>
+    <objectType typeId="c8fe425d-8db7-4d0a-920f-57889bf764c8" valueTypeId="8bbe9142-564c-4da6-86f4-9bcba1ed0331"/>
+    <refType typeId="cecd9e16-a99c-49e8-b6c8-84166ca47de2" valueTypeId="e9c7324b-2d04-4ab0-947c-7a8da410c5d8"/>
+    <selectionType typeId="e4396275-df7a-4795-bddc-c6f09f6398dc" valueTypeId="85cbaacd-9707-4748-ae99-c05c19d4d40f"/>
+    <listType typeId="7bf8c4f4-a011-4503-827e-ab8575ada865" valueTypeId="f649e6e8-3ed5-4f1d-b721-6f131455e074"/>
+    <managerType typeId="56e4cde0-192c-46ba-b54a-f7ac129aec02" valueTypeId="016edb22-8dfd-462a-88ba-49680760000f"/>
+  </producedTypes>
+  <name>СписаниеСРассчетногоСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание с рассчетного счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СписаниеСРассчетногоСчета.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ЗакупкаТоваров</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СписаниеСРассчетногоСчета.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.АвансыПоставщикам</registerRecords>
+  <registerRecords>AccumulationRegister.ЗадолженностьПередПоставщиками</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="69d2692b-67b9-4acc-a38d-933452f69f2f">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Поставщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6692fe50-ae1d-4b33-9bca-16479ca4746f">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cba19f1b-59c4-4a8f-9efb-403f2a97835f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f41af17-7c8d-49cb-8335-7a9b60e35d10">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d58569fe-bbc9-41b1-a5af-ca3792bc6b52">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

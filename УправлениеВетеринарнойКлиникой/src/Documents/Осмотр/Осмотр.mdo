@@ -245,6 +245,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="345b17a3-0d2a-4b7d-9c7f-faf71628f32d">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="0d0429a9-7c06-462c-a293-b1ec8d1034f2">
     <name>ФормаДокумента</name>
     <synonym>
@@ -418,6 +434,9 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="ec19b87a-9b6a-467a-af42-4891accd4425">
+    <name>ПечатьОсмотра</name>
+  </templates>
   <commands uuid="bb9eeb1e-07c3-41dd-a97d-bf0cfeddc095">
     <name>ПечатьОсмотра</name>
     <group>FormCommandBarImportant</group>

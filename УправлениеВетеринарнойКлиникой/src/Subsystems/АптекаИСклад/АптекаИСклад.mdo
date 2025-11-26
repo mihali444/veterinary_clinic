@@ -8,8 +8,10 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Товары</content>
-  <content>Catalog.Склады</content>
-  <content>Document.СписаниеТоваров</content>
   <content>Document.УстановкаЦенНаТовары</content>
   <content>InformationRegister.ЦеныНаТовары</content>
+  <content>Catalog.Поставщики</content>
+  <content>Document.ЗакупкаТоваров</content>
+  <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>AccumulationRegister.Покупка</content>
 </mdclass:Subsystem>

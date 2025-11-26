@@ -107,6 +107,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Договоры.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Договоры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Договоры.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="0bd898c7-f55c-4a2a-8fb4-acac6cd1eb72">
     <name>ДатаНачала</name>
     <synonym>
@@ -140,7 +141,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -153,6 +153,7 @@
     </synonym>
     <type>
       <types>CatalogRef.Клиенты</types>
+      <types>CatalogRef.Поставщики</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -172,6 +173,23 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a2c3e2c-da3d-408c-bfac-5b22b78709ec">
+    <name>ТипДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип договора</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыДоговоров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -190,6 +208,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38afadb9-fca1-44e8-a7e5-7d3f4dfd52b1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -195,6 +195,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="04286ff5-ae5f-47ee-b349-ad8a131cfa75">
+    <name>ЧасоваяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовая ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e590ee80-b370-4d75-a195-a6949ce488b5">
     <name>ФормаЭлемента</name>
     <synonym>

@@ -31,17 +31,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.СписаниеТоваров</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Питомцы</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -103,33 +92,6 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>

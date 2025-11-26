@@ -62,26 +62,38 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Питомцы</catalogs>
   <catalogs>Catalog.ПородыЖивотных</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
   <documents>Document.ЗаписьНаПрием</documents>
   <documents>Document.Осмотр</documents>
-  <documents>Document.СписаниеТоваров</documents>
   <documents>Document.УстановкаЦенНаТовары</documents>
   <documents>Document.УстановкаЦенНаУслуги</documents>
   <documents>Document.Чек</documents>
+  <documents>Document.ЗакупкаТоваров</documents>
+  <documents>Document.ПоступлениеНаРассчетныйСчет</documents>
+  <documents>Document.СписаниеСРассчетногоСчета</documents>
   <enums>Enum.Должности</enums>
   <enums>Enum.Пол</enums>
   <enums>Enum.СтатусыЗаписи</enums>
   <enums>Enum.СтатусыОплаты</enums>
   <enums>Enum.СтатусыОсмотра</enums>
   <enums>Enum.СпособПрименения</enums>
+  <enums>Enum.ТипыДоговоров</enums>
+  <reports>Report.АктСверки</reports>
+  <reports>Report.ОтчетПоПродажам</reports>
   <dataProcessors>DataProcessor.ВыгрузкаСотрудниковВАрхив</dataProcessors>
   <informationRegisters>InformationRegister.МедицинскиеКарты</informationRegisters>
   <informationRegisters>InformationRegister.РасписаниеВрачей</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНаТовары</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНаУслуги</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Покупка</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.АвансыПокупателей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.АвансыПоставщикам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗадолженностьПередПоставщиками</accumulationRegisters>
 </mdclass:Configuration>
