@@ -53,6 +53,31 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
+        <items xsi:type="form:Button">
+          <name>АдресФотоКонтекстноеМенюВставитьИзБуфераОбмена</name>
+          <id>44</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>АдресФотоКонтекстноеМенюВставитьИзБуфераОбменаРасширеннаяПодсказка</name>
+            <id>45</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ВставитьИзБуфераОбмена</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>PictureField</type>
@@ -716,6 +741,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Очистить</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ВставитьИзБуфераОбмена</name>
+    <title>
+      <key>ru</key>
+      <value>Вставить из буфера обмена</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВставитьИзБуфераОбмена</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
