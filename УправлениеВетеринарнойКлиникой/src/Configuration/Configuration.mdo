@@ -57,6 +57,7 @@
   <roles>Role.Администратор</roles>
   <roles>Role.ЗаведущийАптекой</roles>
   <commonModules>CommonModule.РаботаСЦенамиВызовСервера</commonModules>
+  <commonModules>CommonModule.ФормированиеАрхивов</commonModules>
   <commonForms>CommonForm.ДашбордАдминистратора</commonForms>
   <catalogs>Catalog.ВидыЖивотных</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
